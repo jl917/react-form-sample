@@ -13,6 +13,7 @@ import FSNodeControl2 from "./form_sample_antd/NodeControl2";
 import FSFormContext from "./form_sample_antd/FormContext";
 import FSCustom from "./form_sample_antd/Custom";
 import FSInputExt from "./form_sample_antd/InputExt";
+import FSWatch from "./form_sample_antd/Watch";
 
 import RHFBasic from "./react_hook_form/Basic";
 import RHFObjArr from "./react_hook_form/ObjArr";
@@ -23,6 +24,7 @@ import RHFNodeControl2 from "./react_hook_form/NodeControl2";
 import RHFFormContext from "./react_hook_form/FormContext";
 import RHFCustom from "./react_hook_form/Custom";
 import RHFInputExt from "./react_hook_form/InputExt";
+import RHFWatch from "./react_hook_form/Watch";
 
 const routes = [
   {
@@ -69,7 +71,12 @@ const routes = [
     name: "기타 컴포넌트킷 사용예제",
     path: "form_sample_antd/inputExt",
     element: <FSInputExt />
-  }
+  },
+  {
+    name: "Watch",
+    path: "form_sample_antd/watch",
+    element: <FSWatch />
+  },
 ];
 
 const routes2 = [
@@ -117,6 +124,11 @@ const routes2 = [
     name: "기타 컴포넌트킷 사용예제",
     path: "react_hook_form/inputExt",
     element: <RHFInputExt />
+  },
+  {
+    name: "Watch",
+    path: "react_hook_form/watch",
+    element: <RHFWatch />
   }
 ];
 
